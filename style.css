@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  /* background: hsl(235, 46%, 20%); */
+  background: hsl(237, 90%, 8%);
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards {
+  display: flex;
+  padding: 0 2rem;
+  flex-basis: 50%;
+}
+
+.card-l {
+  flex: 20% 1;
+}
+
+.card-up {
+  padding: 2rem 4rem;
+  color: #fff;
+  background: hsl(246, 80%, 60%);
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.card-l .card-up img {
+  width: 10rem;
+  height: 10rem;
+  margin-bottom: 2rem;
+  margin-top: 2rem;
+}
+
+.card-up p {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 1rem;
+}
+
+.card-up h3 {
+  font-size: 3rem;
+  text-transform: capitalize;
+  margin-bottom: 4rem;
+}
+
+.card-l .card-down {
+  background: hsl(235, 46%, 20%);
+  padding: 3rem 2rem;
+  border-radius: 1rem;
+  margin-top: -1rem;
+}
+
+.card-down h5 {
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: rgb(67, 78, 182);
+}
+
+.hthree h5 {
+  color: #fff;
+  margin: 1.5rem 0;
+}
+
+.card-r {
+  /* margin-right: 2rem; */
+  padding: 0 3rem;
+  flex: 60% 1;
+}
+
+.card-r .right-cards {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  gap: 2rem;
+  /* flex: calc(20%-1.5rem) 1; */
+}
+
+.text-up {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem 2rem;
+}
+
+.text-up h5 {
+  font-size: 2rem;
+  text-transform: capitalize;
+}
+
+.text-up i {
+  font-size: 2rem;
+}
+
+.single-card {
+  flex-grow: 1;
+}
+
+.single-card-up1 {
+  background: hsl(15, 100%, 70%);
+  background-image: url("images/icon-work.svg");
+}
+
+.single-card-up2 {
+  background: hsl(195, 74%, 62%);
+  background-image: url("images/icon-play.svg");
+}
+
+.single-card-up3 {
+  background: hsl(348, 100%, 68%);
+  background-image: url("images/icon-study.svg");
+}
+
+.single-card-up4 {
+  background: hsl(145, 58%, 55%);
+  background-image: url("images/icon-exercise.svg");
+}
+
+.single-card-up5 {
+  background: hsl(264, 64%, 52%);
+  background-image: url("images/icon-social.svg");
+}
+
+.single-card-up6 {
+  background: hsl(43, 84%, 65%);
+  background-image: url("images/icon-self-care.svg");
+}
+
+.single-card-up1,
+.single-card-up2,
+.single-card-up3,
+.single-card-up4,
+.single-card-up5,
+.single-card-up6 {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  overflow: hidden;
+  height: 5rem;
+  background-repeat: no-repeat;
+  background-position: right center;
+}
+
+.single-card-down {
+  background: hsl(235, 46%, 20%);
+  border-radius: 1rem;
+  color: #fff;
+  margin-top: -1rem;
+}
+
+.text-down {
+  padding: 2rem 2rem;
+}
+
+.text-down h1 {
+  font-size: 4rem;
+  text-transform: capitalize;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.text-down h6 {
+  font-size: 1.5rem;
+}
+
+img {
+  width: 100%;
+  height: 4rem;
+  object-fit: cover;
+  object-position: center;
+}
